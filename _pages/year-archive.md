@@ -1,6 +1,6 @@
 ---
 title: "Posts par année"
 permalink: /year-archive/
-layout: posts
+layout: home
 author_profile: true
 ---
