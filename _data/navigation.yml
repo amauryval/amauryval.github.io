@@ -1,0 +1,11 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "CV"
+    url: https://amauryval.github.io/portfolio
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Catégories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
