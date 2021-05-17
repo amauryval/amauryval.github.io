@@ -1,6 +1,6 @@
 ---
 title: "Snippets - Git"
-last_modified_at: 2020-19-09T12:37:45
+last_modified_at: 2020-09-19T12:37:45
 categories:
   - Blog
 tags:
