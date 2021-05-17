@@ -144,7 +144,7 @@ Example:
 }
 ```
 
-## snippet(s)
+## Snippet(s)
 
 There is a lot of way to organize your Json schema: I recommand to go to this link http://json-schema.org/understanding-json-schema/ .
 For example, one of my favourite is to use the "definitions" properties, that help you to define reusable data properties schema.
