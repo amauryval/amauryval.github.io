@@ -12,9 +12,6 @@ toc_sticky: true
 toc_label: "Dans cette page..."
 ---
 
-Regex
-=======================
-
 Some Regex snippets :
 
 # string value extracteur into a dictionnary
