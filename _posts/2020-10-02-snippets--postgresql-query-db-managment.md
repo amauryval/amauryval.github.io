@@ -19,7 +19,7 @@ toc_label: "Dans cette page..."
 
 Check : https://www.postgresql.org/docs/13/app-pgdump.html
 
-```shell script
+```bash
 pg_dump -U username -h localhost -W -F p db_name > D:\my_backup.sql
 ```
 
@@ -28,12 +28,12 @@ pg_dump -U username -h localhost -W -F p db_name > D:\my_backup.sql
 
 Check : https://www.postgresql.org/docs/13/app-pgrestore.html
 
-```shell script
+```bash
 pg_restore -U username -h localhost -d db_name -1 -f D:\my_backup.sql
 ```
 
 ## Drop
-```shell script
+```bash
 dropdb mydb
 ```
 
