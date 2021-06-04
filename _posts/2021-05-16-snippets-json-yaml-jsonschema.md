@@ -2,7 +2,7 @@
 title: "Snippets - Json / YAML & JsonSchema"
 last_modified_at: 2020-12-06T11:37:45
 categories:
-  - Blog
+  - Snippets
 tags:
   - Json
   - JsonSchema
@@ -25,9 +25,9 @@ Documentation :
 
 Tools to help you
 * [Json validator](https://jsonformatter.curiousconcept.com/)
-* [Json2 Yaml](https://jsonformatter.org/json-to-yaml)
+* [Json2Yaml](https://jsonformatter.org/json-to-yaml)
 * [Json & JsonSchema validator](https://www.jsonschemavalidator.net/)
-
+* [Json editor](https://jsoneditoronline.org/beta/#left=local.leduze)
 
 # Json Schema with Python
 

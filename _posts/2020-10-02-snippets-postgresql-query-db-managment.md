@@ -2,7 +2,7 @@
 title: "Snippets - PostgreSQL DB Managment"
 last_modified_at: 2020-10-02T21:07:24
 categories:
-  - Blog
+  - Snippets
 tags:
   - SQL
   - Database

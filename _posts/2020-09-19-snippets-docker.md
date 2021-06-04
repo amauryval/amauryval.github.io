@@ -2,7 +2,7 @@
 title: "Snippets - Docker"
 last_modified_at: 2020-09-19T22:17:49
 categories:
-  - Blog
+  - Snippets
 tags:
   - Snippets
   - Docker

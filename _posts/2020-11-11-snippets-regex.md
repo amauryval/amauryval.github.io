@@ -2,7 +2,7 @@
 title: "Snippets - Regex"
 last_modified_at: 2020-11-11T12:07:24
 categories:
-  - Blog
+  - Snippets
 tags:
   - Regex
   - Python

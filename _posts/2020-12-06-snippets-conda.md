@@ -2,7 +2,7 @@
 title: "Snippets - conda"
 last_modified_at: 2020-12-06T10:37:45
 categories:
-  - Blog
+  - Snippets
 tags:
   - Conda
   - Python
