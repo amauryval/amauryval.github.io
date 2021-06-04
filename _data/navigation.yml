@@ -7,5 +7,7 @@ main:
     url: /year-archive/
   - title: "Catégories"
     url: /categories/
+  - title: "Mes favoris"
+    url: /my-favorites/
   - title: "Tags"
     url: /tags/
