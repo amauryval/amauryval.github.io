@@ -368,7 +368,7 @@ Voici un décorateur équivalent à celui de notre _cupboard_.
 ```python
 import functools
 
-class Cupboard():
+class Cupboard:
 
     def __init__(self, location): 
         self._location = location
