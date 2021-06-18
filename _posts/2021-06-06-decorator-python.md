@@ -111,20 +111,20 @@ Si nous n'utilisons pas le décorateur _@functools.wraps(func)_ :
 ```python
 import functools
 
-def chocolate_box(func): 
+def chocolate_box(func):
 
     # On commente le décorateur
     # @functools.wraps(func)
     def wrapper_box():
-    
+
         print(">> Open the chocolate box")
         # avant l'exécution de la fonction
-        
+
         output_string = func()  # sera lancée la fonction eat_a_chocolate()
-        
+
         # après, une fois que la fonction s'est exécutée
         print(output_string)
-        
+
         print(">> Close the chocolate box")
 
     return wrapper_box
@@ -419,6 +419,3 @@ Eating a black chocolate
 > Close the kitchen cupboard
 ```
 
-## D'autres applications
-
-> TODO add examples, check my repos
