@@ -15,16 +15,13 @@ toc_sticky: true
 toc_label: "Dans cette page..."
 ---
 
-La récursivité, c'est beau !
+La récursivité, c'est beau et pratique !
 
 
-<figure class="">
-
+<figure class="half">
 
 <a href="/assets/images/memes/recursive.jpg"><img src="/assets/images/memes/recursive.jpg"></a>
 
-
-<figcaption>Processus de transformation de la géométrie vers le format Bokeh.</figcaption>
 </figure>
 
 
