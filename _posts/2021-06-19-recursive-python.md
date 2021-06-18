@@ -25,7 +25,7 @@ La récursivité, c'est beau et pratique !
 </figure>
 
 
-## qu'est-ce que la récursivité ?
+## Qu'est-ce que la récursivité ?
 
 Vu qu'on va parler de code, prenons la définition proposée par Wikipédia, à la page [Algorithme récursif](https://fr.wikipedia.org/wiki/Algorithme_r%C3%A9cursif) :
 
