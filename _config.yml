@@ -100,6 +100,7 @@ author:
   bio              : "Géomaticien & développeur. Un blog, des posts et des snippets..."
   location         : "Région de Lyon"
   email            :
+  linkedin         : "amaury-valorge"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -107,9 +108,6 @@ author:
     - label: "CV & Portfolio"
       icon: "fas fa-fw fa-link"
       url: "https://amauryval.github.io/portfolio/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
-      url: "https://www.linkedin.com/in/amaury-valorge/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
