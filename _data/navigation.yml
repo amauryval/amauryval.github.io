@@ -1,7 +1,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "CV"
+  - title: "CV & Portfolio"
     url: https://amauryval.github.io/portfolio
   - title: "Posts"
     url: /year-archive/
