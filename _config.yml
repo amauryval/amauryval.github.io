@@ -139,7 +139,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/amauryval"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/amaury-valorge/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
