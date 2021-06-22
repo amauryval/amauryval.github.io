@@ -40,7 +40,7 @@ Un décorateur... décore une fonction de la manière suivante avec le caractèr
 ```python
 @chocolate_box
 def eat_a_chocolate():
-    return "Eating a chocolate!"
+    return "I'm eating a chocolate!"
 ```
 
 On note que la méthode n'a pas d'argument : nous reviendrons sur ce point dans [ce paragraphe](##Les-arguments)
@@ -79,7 +79,7 @@ Exécutons, maintenant, le code suivant :
 ```python
 @chocolate_box
 def eat_a_chocolate():
-    return "Eating a chocolate"
+    return "I'm eating a chocolate"
 
 eat_a_chocolate()
 ```
@@ -88,7 +88,7 @@ Le résultat :
 
 ```bash
 >> Open the chocolate box
-Eating a chocolate
+I'm eating a chocolate
 >> Close the chocolate box
 ```
 
@@ -131,7 +131,7 @@ def chocolate_box(func):
 
 @chocolate_box
 def eat_a_chocolate():
-    return "Eating a chocolate"
+    return "I'm eating a chocolate"
 
 print(eat_a_chocolate.__name__)
 ```
@@ -175,7 +175,7 @@ Ajoutons ce nouveau décorateur :
 @cupboard
 @chocolate_box
 def eat_a_chocolate():
-    return "Eating one chocolate"
+    return "I'm eating one chocolate"
 ```
 
 Nous obtenons :
@@ -183,7 +183,7 @@ Nous obtenons :
 ```bash
 > Open the cupboard
 >> Open the chocolate box
-Eating one chocolate
+I'm eating one chocolate
 >> Close the chocolate box
 > Close the cupboard
 ```
@@ -211,7 +211,7 @@ Nous obtenons le même résultat :
 ```bash
 > Open the cupboard
 >> Open the chocolate box
-Eating one chocolate
+I'm eating one chocolate
 >> Close the chocolate box
 > Close the cupboard
 ```
@@ -231,7 +231,7 @@ Ajoutons un argument a la fonction _eat_a_chocolate()_ qui va nous permettre de 
 @cupboard
 @chocolate_box
 def eat_a_chocolate(kind):
-    return f"Eating a {kind} chocolate"
+    return f"I'm eating a {kind} chocolate"
 
 eat_a_chocolate("black")
 ```
@@ -263,29 +263,29 @@ def cupboard(func):
 
         print("> Open the cupboard")
         # avant l'exécution de la fonction
-        
+
         func()
-        
+
         # après, une fois que la fonction s'est exécutée
         print("> Close the cupboard")
 
     return wrapper_cupboard
 
 
-def chocolate_box(func): 
+def chocolate_box(func):
 
     @functools.wraps(func)
     def wrapper_box(*args, **kwargs):
-    
+
         print(">> Open the chocolate box")
         # avant l'exécution de la fonction
-        
+
         output_string = func(*args, **kwargs)  # sera lancée la fonction eat_a_chocolate()
         # le résultat de la méthode décorée est récupéré
-        
+
         # après, une fois que la fonction s'est exécutée
         print(output_string)
-        
+
         print(">> Close the chocolate box")
 
     return wrapper_box
@@ -297,14 +297,14 @@ Exécutons le code suivant :
 @cupboard
 @chocolate_box
 def eat_a_chocolate(kind):
-    return f"Eating a {kind} chocolate"
+    return f"I'm eating a {kind} chocolate"
 eat_a_chocolate("black")
 ```
 
 ```bash
 > Open the cupboard
 >> Open the chocolate box
-Eating a black chocolate
+I'm eating a black chocolate
 >> Close the chocolate box
 > Close the cupboard
 ```
@@ -328,9 +328,9 @@ def cupboard(location):
 
             print(f"> Open the {location} cupboard")
             # avant l'exécution de la fonction
-        
+
             func(*args, **kwargs)
-        
+
             # après, une fois que la fonction s'est exécutée
             print(f"> Close the {location} cupboard")
 
@@ -345,7 +345,7 @@ Maintenant, exécutons notre code :
 @cupboard(location="kitchen")
 @chocolate_box
 def eat_a_chocolate(kind):
-    return f"Eating a {kind} chocolate"
+    return f"I'm eating a {kind} chocolate"
 
 eat_a_chocolate("black")
 ```
@@ -355,7 +355,7 @@ Et voilà :
 ```bash
 > Open the kitchen cupboard
 >> Open the chocolate box
-Eating a black chocolate
+I'm eating a black chocolate
 >> Close the chocolate box
 > Close the kitchen cupboard
 ```
@@ -370,24 +370,24 @@ import functools
 
 class Cupboard:
 
-    def __init__(self, location): 
+    def __init__(self, location):
         self._location = location
-        
+
     def __call__(self, func):
-    
-        functools.wraps(func)               
+
+        functools.wraps(func)
         def wrapper_cupboard(*args, **kwargs):
-    
+
             self._opening_action()
             # avant l'exécution de la fonction
-        
+
             func(*args, **kwargs)
-        
+
             # après, une fois que la fonction s'est exécutée
             self._closing_action()
-        
+
         return wrapper_cupboard
-                                                  
+
     def _opening_action(self):
         print(f"> Open the {self._location} cupboard")
 
@@ -404,7 +404,7 @@ Enfin, exécutons à nouveau notre code :
 @Cupboard(location="kitchen")
 @chocolate_box
 def eat_a_chocolate(kind):
-    return f"Eating a {kind} chocolate"
+    return f"I'm eating a {kind} chocolate"
 
 eat_a_chocolate("black")
 ```
@@ -414,7 +414,7 @@ Résultat :
 ```bash
 > Open the kitchen cupboard
 >> Open the chocolate box
-Eating a black chocolate
+I'm eating a black chocolate
 >> Close the chocolate box
 > Close the kitchen cupboard
 ```
