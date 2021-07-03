@@ -419,3 +419,52 @@ I'm eating a black chocolate
 > Close the kitchen cupboard
 ```
 
+## Exemples : 
+
+
+Réexécuter une méthode si jamais une exception apparait. Utile lorsque l'on doit communiquer avec des évènements externes à Python: url web, évènement d'une application tierces (état de la GUI)...
+
+```python
+import time
+from functools import wraps
+
+def retry_at_exception(expected_exception, tries_count: int = 4, delay_between_tries: int = 3, delay_coeff_extender: int = 2):
+    """
+    Decorator useful to retry an method if an expected exception is returned
+
+    :param expected_exception: The expected exception
+    :type expected_exception: Exception
+    :param tries_count: number of tries
+    :type tries_count: integer
+    :param delay_between_tries: mininum delay to retry
+    :type delay_between_tries: integer
+    :param delay_coeff_extender: To extend the delay of the next retry
+    :type delay_coeff_extender: integer
+
+    :return: the decorated func
+    :rtype: func
+    """
+    def retry(func):
+
+        @wraps(func)
+        def func_retry(*args , **kwargs):
+            current_tries_count, current_delay_between_tries = tries_count, delay_between_tries
+            while current_tries_count > 1:
+                try:
+                    return func(*args, **kwargs)
+
+                except expected_exception as e:
+                    # only if the exception appears, we'll retry
+                    print(f"{str(e)}: retrying in {current_delay_between_tries} seconds...")
+                    time.sleep(current_delay_between_tries)
+
+                    current_tries_count -= 1
+                    # we are extending the delay betweeen each retry
+                    current_delay_between_tries *= delay_coeff_extender
+
+            return func(*args, **kwargs)
+
+        return func_retry
+
+    return retry
+```
