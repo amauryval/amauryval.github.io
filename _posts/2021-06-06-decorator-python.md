@@ -9,10 +9,15 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."
+sitemap:
+  lastmod: 2021-07-04
+  priority: 0.7
+  changefreq: 'monthly'
+  exclude: 'no'
 ---
 
 
-Les décorateurs, "c'est comme une boîte de chocolat"... 
+Les décorateurs, "c'est comme une boîte de chocolat"...
 
 ![](https://media.giphy.com/media/z5EthizqZYAFi/giphy.gif)
 
