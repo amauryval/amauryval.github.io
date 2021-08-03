@@ -26,7 +26,7 @@ Les décorateurs, "c'est comme une boîte de chocolat"...
 
 Un décorateur permet d'étendre la logique d'une méthode, ou encore de lui superposer d'autres comportements. On peut prendre pour exemple un décorateur assez classique "time it" qui consiste à déterminer le temps d'exécution d'une méthode donnée. Le décorateur est ainsi applicable très facilement à toutes les méthodes et nous permet de respecter le DRY (_Don't Repeat Yourself_).
 
-Quelques exemples sont disponibles [ici](##-Exemples)
+Quelques exemples sont disponibles [ici](#exemples)
 
 ## Le principe
 
