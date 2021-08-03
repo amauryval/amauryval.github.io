@@ -26,7 +26,7 @@ Les décorateurs, "c'est comme une boîte de chocolat"...
 
 Un décorateur permet d'étendre la logique d'une méthode, ou encore de lui superposer d'autres comportements. On peut prendre pour exemple un décorateur assez classique "time it" qui consiste à déterminer le temps d'exécution d'une méthode donnée. Le décorateur est ainsi applicable très facilement à toutes les méthodes et nous permet de respecter le DRY (_Don't Repeat Yourself_).
 
-Quelques exemples sont disponibles [ici](##-D'autres-applications)
+Quelques exemples sont disponibles [ici](##-Exemples)
 
 ## Le principe
 
@@ -424,7 +424,7 @@ I'm eating a black chocolate
 > Close the kitchen cupboard
 ```
 
-## Exemples : 
+## Exemples
 
 
 Réexécuter une méthode si jamais une exception apparait. Utile lorsque l'on doit communiquer avec des évènements externes à Python: url web, évènement d'une application tierces (état de la GUI)...
