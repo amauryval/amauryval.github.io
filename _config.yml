@@ -134,7 +134,7 @@ footer:
       # url:
     - label: "CV & Portfolio"
       icon: "far fa-address-card"
-      url: "https://amauryval.github.io/portfolio/"
+      url: "http://amaury-valorge.com/portfolio/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/amauryval"
