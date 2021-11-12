@@ -106,7 +106,7 @@ WHERE
 
 ## Vaccum applying
 
-To do after a delete query
+To do after a table changes
 
 MY_TABLE depends on the table name
 
