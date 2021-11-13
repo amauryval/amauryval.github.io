@@ -32,5 +32,5 @@ postgres://johndoe:597f99fb704c5259c@127.0.0.1:5432/db_name
 ```
 
 ```
-.+:\/\/(?P<username>.+):(?P<password>.+)@(?P<host>.+):(?P<port>\d{4})\/(?P<database>.+)
+.+:\/\/(?P<username>.+):(?P<password>.+)@(?P<host>[\W\w-]+):(?P<port>\d+)\/(?P<database>.+)
 ```
