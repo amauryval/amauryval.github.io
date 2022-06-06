@@ -380,7 +380,7 @@ class Cupboard:
 
     def __call__(self, func):
 
-        functools.wraps(func)
+        @functools.wraps(func)
         def wrapper_cupboard(*args, **kwargs):
 
             self._opening_action()
