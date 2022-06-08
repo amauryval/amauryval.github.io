@@ -1,5 +1,6 @@
 ---
 title: "Python et les décorateurs"
+image: "https://media.giphy.com/media/KE9cblgPK6EPS/giphy.gif"
 last_modified_at: 2021-06-06T22:37:24
 categories:
   - Topic
