@@ -57,6 +57,11 @@ docker-compose -f docker-compose.yml down -v MY_CONTAINER_NAME
 docker system df -v
 ```
 
+## Get containers RAM usage
+```
+docker stats -a --no-stream
+```
+
 ## Get log container
 Change tail value as you need.
 ```
