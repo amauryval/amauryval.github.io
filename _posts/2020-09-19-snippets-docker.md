@@ -52,6 +52,11 @@ docker-compose -f docker-compose.yml down MY_CONTAINER_NAME
 docker-compose -f docker-compose.yml down -v MY_CONTAINER_NAME
 ```
 
+## Get general info about images, container, volumes...
+```
+docker system df -v
+```
+
 ## Get log container
 Change tail value as you need.
 ```
@@ -63,7 +68,7 @@ docker-compose -f docker-compose.yml logs --tail=100 -f MY_CONTAINER_NAME
 docker-compose -f docker-compose.yml ps
 ```
 
-## Remove all unused docker objects
+## Remove all unused docker objects (<none>/dangling objects, meaning images & container)
 ```
 docker system prune
 ```
