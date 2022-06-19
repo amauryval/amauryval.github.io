@@ -13,6 +13,9 @@ toc_label: "Dans cette page..."
 
 Benchmark sur différentes méthodes pour récupérer la valeur d'un dictionnaire:
 
+<figure style="width: 200px" class="">
+  <a href="/assets/images/memes/code.jpg"><img src="/assets/images/memes/code.jpg"></a>
+</figure>
 
 ```python
 import timeit

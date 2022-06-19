@@ -17,7 +17,7 @@ sitemap:
 ---
 
 
-Les décorateurs, "c'est comme une boîte de chocolat"...
+Les décorateurs, "c'est comme une boîte" !...
 
 ![](https://media.giphy.com/media/z5EthizqZYAFi/giphy.gif)
 

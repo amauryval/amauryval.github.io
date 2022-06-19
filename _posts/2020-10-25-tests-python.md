@@ -13,6 +13,11 @@ toc_label: "Dans cette page..."
 ---
 
 
+<figure style="width: 200px" class="">
+  <a href="/assets/images/memes/code.jpg"><img src="/assets/images/memes/code.jpg"></a>
+</figure>
+
+
 La réalisation de tests est une nécessité absolue et fait partie totalement du processus de développement dans la mesure où il permet de valider la pertinence des résultats d'un processus.
 Les avantages sont très nombreux :
 - détection des erreurs ;

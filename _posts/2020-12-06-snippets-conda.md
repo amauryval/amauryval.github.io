@@ -12,8 +12,11 @@ toc_sticky: true
 toc_label: "Dans cette page..."
 ---
 
-Some Anaconda commands snippets
+Un aide mémoire pour Anaconda...
 
+<figure style="width: 200px" class="">
+  <a href="/assets/images/memes/code.jpg"><img src="/assets/images/memes/code.jpg"></a>
+</figure>
 
 # Conda environment list
 ```

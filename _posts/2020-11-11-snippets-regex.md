@@ -12,7 +12,13 @@ toc_sticky: true
 toc_label: "Dans cette page..."
 ---
 
-Some Regex snippets :
+<figure style="width: 200px" class="">
+  <a href="/assets/images/memes/json.jpg"><img src="/assets/images/memes/json.jpg"></a>
+</figure>
+
+
+Un aide mémoire pour les regex...
+
 
 # string value extracteur into a dictionnary
 ```python

@@ -10,7 +10,11 @@ toc_sticky: true
 toc_label: "Dans cette page..."
 ---
 
-Some Git snippets
+Un aide mémoire pour Git...
+
+<figure style="width: 200px" class="">
+  <a href="/assets/images/memes/git.jpg"><img src="/assets/images/memes/git.jpg"></a>
+</figure>
 
 # Generals
 

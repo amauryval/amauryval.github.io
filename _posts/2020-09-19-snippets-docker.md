@@ -12,7 +12,11 @@ toc_label: "Dans cette page..."
 ---
 
 
-Some Docker commands snippets
+Un aide mémoire sur Docker...
+
+<figure style="width: 200px" class="">
+  <a href="/assets/images/memes/baleine.jpg"><img src="/assets/images/memes/baleine.jpg"></a>
+</figure>
 
 
 # Commands about docker-compose.yml file
