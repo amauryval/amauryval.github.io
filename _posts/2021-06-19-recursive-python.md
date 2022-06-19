@@ -2,14 +2,10 @@
 title: "La récursivité..."
 last_modified_at: 2021-06-19T00:16:15
 categories:
-  - Topic
+  - Tutos
 tags:
   - Python
-  - Récursif
   - Algorithme
-  - gdf2bokeh
-  - bokeh
-  - shapely
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."

@@ -4,7 +4,6 @@ last_modified_at: 2020-09-19T22:17:49
 categories:
   - Snippets
 tags:
-  - Snippets
   - Docker
 toc: true
 toc_sticky: true

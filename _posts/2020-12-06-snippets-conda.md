@@ -6,7 +6,6 @@ categories:
 tags:
   - Conda
   - Python
-  - Snippets
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."

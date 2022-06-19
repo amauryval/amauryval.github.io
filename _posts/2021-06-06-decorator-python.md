@@ -2,7 +2,7 @@
 title: "Python et les décorateurs"
 last_modified_at: 2021-06-06T22:37:24
 categories:
-  - Topic
+  - Tutos
 tags:
   - Python
   - Decorateur
