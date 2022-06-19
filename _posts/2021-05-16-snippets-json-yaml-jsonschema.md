@@ -11,14 +11,13 @@ toc_sticky: true
 toc_label: "Dans cette page..."
 ---
 
-<figure style="width: 0px; visibility: hidden;" class="">
-  <a href="/assets/images/memes/json.jpg"><img src="/assets/images/memes/json.jpg"></a>
-</figure>
-
-
 Json, YAML (as XML) are exchange formats which can be used to store data (GeoJSON for example)
 It's a good practice to use them as input parameter of a process, tools. It's possible to validate your input data by defining a Json Schema.
 So Json Schema can be used as a pattern to validate the data defined in your Json or Yaml formats.
+
+<figure style="width: 0px; visibility: hidden;" class="">
+  <a href="/assets/images/memes/json.jpg"><img src="/assets/images/memes/json.jpg"></a>
+</figure>
 
 They are more easy to use than XML because readability is better
 
