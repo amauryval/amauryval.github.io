@@ -2,11 +2,10 @@
 title: "Les tests avec Python"
 last_modified_at: 2020-10-25T22:30:49
 categories:
-  - Tuto
+  - Tutos
 tags:
   - Python
-  - test
-  - pytest
+  - Test
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."

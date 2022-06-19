@@ -4,8 +4,7 @@ last_modified_at: 2020-12-06T11:37:45
 categories:
   - Snippets
 tags:
-  - Json[Schema]
-  - YAML
+  - YAML/Json[Schema]
   - Python
 toc: true
 toc_sticky: true

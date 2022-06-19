@@ -6,7 +6,6 @@ categories:
 tags:
   - SQL
   - Database
-  - PostgreSQL
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."
