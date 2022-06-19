@@ -13,7 +13,7 @@ toc_label: "Dans cette page..."
 Un aide mémoire pour Git...
 
 <figure style="width: 0px; visibility: hidden;" class="">
-  <a href="/assets/images/memes/git.jpg"><img src="/assets/images/memes/git.jpg"></a>
+  <a href="/assets/images/memes/git.gif"><img src="/assets/images/memes/git.gif"></a>
 </figure>
 
 # Generals
