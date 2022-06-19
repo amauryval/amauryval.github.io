@@ -13,7 +13,7 @@ toc_label: "Dans cette page..."
 ---
 
 <figure style="width: 200px" class="">
-  <a href="/assets/images/memes/json.jpg"><img src="/assets/images/memes/json.jpg"></a>
+  <a href="/assets/images/memes/code.jpg"><img src="/assets/images/memes/code.jpg"></a>
 </figure>
 
 

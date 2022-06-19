@@ -15,7 +15,7 @@ toc_label: "Dans cette page..."
 Un aide mémoire sur Docker...
 
 <figure style="width: 200px" class="">
-  <a href="/assets/images/memes/baleine.jpg"><img src="/assets/images/memes/baleine.jpg"></a>
+  <a href="/assets/images/memes/docker.jpg"><img src="/assets/images/memes/docker.jpg"></a>
 </figure>
 
 
