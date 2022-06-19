@@ -14,7 +14,7 @@ toc_label: "Dans cette page..."
 
 Un aide mémoire pour PostgreSQL...
 
-<figure style="width: 200px" class="">
+<figure style="width: 0px; visibility: hidden;" class="">
   <a href="https://www.postgresql.org/media/img/about/press/elephant.png"><img src="https://www.postgresql.org/media/img/about/press/elephant.png"></a>
 </figure>
 

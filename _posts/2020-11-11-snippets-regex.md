@@ -11,7 +11,7 @@ toc_sticky: true
 toc_label: "Dans cette page..."
 ---
 
-<figure style="width: 200px" class="">
+<figure style="width: 0px; visibility: hidden;" class="">
   <a href="/assets/images/memes/code.jpg"><img src="/assets/images/memes/code.jpg"></a>
 </figure>
 
