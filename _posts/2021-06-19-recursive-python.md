@@ -13,7 +13,7 @@ toc_label: "Dans cette page..."
 
 La récursivité, c'est beau et pratique !
 
-<figure style="width: 400px" class="">
+<figure style="width: 400px" id="img-header">
 <a href="/assets/images/memes/recursive.jpg"><img src="/assets/images/memes/recursive.jpg"></a>
 </figure>
 
