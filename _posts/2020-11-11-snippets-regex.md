@@ -1,5 +1,5 @@
 ---
-title: "Snippets - Regex"
+title: "Regex - cheat sheet"
 last_modified_at: 2020-11-11T12:07:24
 categories:
   - Snippets
@@ -9,9 +9,11 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."
+img_header: "/assets/images/memes/code.jpg"
+short_text: "Un aide mémoire pour les regex..."
 ---
 
-Un aide mémoire pour les regex...
+
 
 <figure style="width: 0px; visibility: hidden;" class="">
   <a href="/assets/images/memes/code.jpg"><img src="/assets/images/memes/code.jpg"></a>

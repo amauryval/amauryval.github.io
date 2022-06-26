@@ -8,6 +8,8 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."
+img_header: "/assets/images/memes/code.jpg"
+short_text: "Benchmark sur différentes méthodes pour récupérer la valeur d'un dictionnaire..."
 ---
 
 Benchmark sur différentes méthodes pour récupérer la valeur d'un dictionnaire:
@@ -76,12 +78,12 @@ timeit.Timer(with_collections_default_dict).timeit(number=50000)
 
 ```
 
-Résultats - Python 3.9:
+**Résultats - Python 3.9:**
 
 | func                                       | duration                     |
-| -------------------------------------------|:----------------------------:|
+| -------------------------------------------|:-----------------------------|
 | with_get                                   | 0.010526700000013989         |
-| with_brackets                              | 0.00805250000007618          |
+| **with_brackets**                          | **0.00805250000007618**      |
 | with_custom_missing_class                  | 0.4602535999999873           |
 | with_caching_of_function_lookup            | 0.011689899999964837         |
 | with_brackets_and_in_operator              | 0.008910399999990659         |
@@ -90,17 +92,16 @@ Résultats - Python 3.9:
 | with_collections_default_dict              | 0.030047200000012708         |
 
 
-Résultats - Python 3.10:
+
+**Résultats - Python 3.10:**
 
 | func                                       | duration                     |
-| -------------------------------------------|:----------------------------:|
+| -------------------------------------------|:-----------------------------|
 | with_get                                   | 0.0169717710000441           |
-| with_brackets                              | 0.01423030299997663          |
+| **with_brackets**                          | **0.01423030299997663**      |
 | with_custom_missing_class                  | 0.3670625449999534           |
 | with_caching_of_function_lookup            | 0.021030869000014718         |
 | with_brackets_and_in_operator              | 0.018795825000097466         |
 | with_brackets_and_try_returned             | 0.014779266999994434         |
 | with_brackets_and_try_except_returned      | 0.026639114000090558         |
 | with_collections_default_dict              | 0.042068502000120134         |
-
-

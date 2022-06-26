@@ -9,6 +9,8 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."
+img_header: "/assets/images/memes/recursive.jpg"
+short_text: "La récursivité, rapide présentation..."
 ---
 
 La récursivité, c'est beau et pratique !

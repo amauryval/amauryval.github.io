@@ -1,5 +1,5 @@
 ---
-title: "Snippets - conda"
+title: "Conda - cheat sheet"
 last_modified_at: 2020-12-06T10:37:45
 categories:
   - Snippets
@@ -9,6 +9,8 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."
+img_header: "/assets/images/memes/code.jpg"
+short_text: "Un aide mémoire pour Anaconda..."
 ---
 
 Un aide mémoire pour Anaconda...

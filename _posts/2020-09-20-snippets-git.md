@@ -1,5 +1,5 @@
 ---
-title: "Snippets - Git"
+title: "Git - cheat sheet"
 last_modified_at: 2020-09-20T12:37:45
 categories:
   - Snippets
@@ -8,6 +8,8 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."
+img_header: "/assets/images/memes/git.jpg"
+short_text: "Un aide mémoire pour Git..."
 ---
 
 Un aide mémoire pour Git...

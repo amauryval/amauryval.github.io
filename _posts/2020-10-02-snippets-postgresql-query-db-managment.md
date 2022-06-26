@@ -1,5 +1,5 @@
 ---
-title: "Snippets - PostgreSQL DB Managment"
+title: "PostgreSQL DB Managment - cheat sheet"
 last_modified_at: 2020-10-02T21:07:24
 categories:
   - Snippets
@@ -9,6 +9,8 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."
+img_header: "https://www.postgresql.org/media/img/about/press/elephant.png"
+short_text: "Un aide mémoire pour PostgreSQL..."
 ---
 
 

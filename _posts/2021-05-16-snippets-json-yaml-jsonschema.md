@@ -1,5 +1,5 @@
 ---
-title: "Snippets - Json / YAML & JsonSchema"
+title: "Json / YAML & JsonSchema - cheat sheet"
 last_modified_at: 2020-12-06T11:37:45
 categories:
   - Snippets
@@ -9,6 +9,8 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."
+img_header: "/assets/images/memes/json.jpg"
+short_text: "Un aide mémoire surtout pour la syntaxe du JSON Schema..."
 ---
 
 Json, YAML (as XML) are exchange formats which can be used to store data (GeoJSON for example)

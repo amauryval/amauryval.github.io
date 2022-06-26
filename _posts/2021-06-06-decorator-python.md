@@ -14,6 +14,8 @@ sitemap:
   priority: 0.7
   changefreq: 'monthly'
   exclude: 'no'
+img_header: "https://media.giphy.com/media/z5EthizqZYAFi/giphy.gif"
+short_text: "Un tutos pour présenter ce qu'est un décorateur, et son implémentation..."
 ---
 
 

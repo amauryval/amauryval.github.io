@@ -1,5 +1,5 @@
 ---
-title: "Snippets - Docker"
+title: "Docker - cheat sheet"
 last_modified_at: 2020-09-19T22:17:49
 categories:
   - Snippets
@@ -8,6 +8,8 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."
+img_header: "/assets/images/memes/docker.jpg"
+short_text: "Un aide mémoire sur Docker..."
 ---
 
 

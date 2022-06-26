@@ -9,6 +9,8 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: "Dans cette page..."
+img_header: "/assets/images/memes/code.jpg"
+short_text: "Un tutos pour réaliser des tests unitaires..."
 ---
 
 La réalisation de tests est une nécessité absolue et fait partie totalement du processus de développement dans la mesure où il permet de valider la pertinence des résultats d'un processus, mais aussi de faciliter le développement et la maintenance d'une application.
