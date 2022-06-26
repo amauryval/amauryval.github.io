@@ -14,7 +14,7 @@ short_text: "Benchmark sur différentes méthodes pour récupérer la valeur d'u
 
 Benchmark sur différentes méthodes pour récupérer la valeur d'un dictionnaire:
 
-<figure style="width: 0px; visibility: hidden;" class="">
+<figure style="width: 0px; visibility: hidden;" id="img-header">
   <a href="/assets/images/memes/code.jpg"><img src="/assets/images/memes/code.jpg"></a>
 </figure>
 

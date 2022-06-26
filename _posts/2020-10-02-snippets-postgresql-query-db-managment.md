@@ -16,7 +16,7 @@ short_text: "Un aide mémoire pour PostgreSQL..."
 
 Un aide mémoire pour PostgreSQL...
 
-<figure style="width: 0px; visibility: hidden;" class="">
+<figure style="width: 0px; visibility: hidden;" id="img-header">
   <a href="https://www.postgresql.org/media/img/about/press/elephant.png"><img src="https://www.postgresql.org/media/img/about/press/elephant.png"></a>
 </figure>
 

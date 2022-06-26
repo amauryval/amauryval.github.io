@@ -14,7 +14,7 @@ short_text: "Un aide mémoire pour Git..."
 
 Un aide mémoire pour Git...
 
-<figure style="width: 400px; visibility: hidden;" class="">
+<figure style="width: 400px; visibility: hidden;" id="img-header">
   <a href="/assets/images/memes/git.gif"><img src="/assets/images/memes/git.gif"></a>
 </figure>
 

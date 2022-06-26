@@ -21,7 +21,10 @@ short_text: "Un tutos pour présenter ce qu'est un décorateur, et son implémen
 
 Les décorateurs, "c'est comme une boîte" !...
 
-![](https://media.giphy.com/media/z5EthizqZYAFi/giphy.gif)
+
+<figure style="width: 250px;" id="img-header">
+  <a href="https://media.giphy.com/media/z5EthizqZYAFi/giphy.gif"><img src="https://media.giphy.com/media/z5EthizqZYAFi/giphy.gif"></a>
+</figure>
 
 
 ## Mais avant, à quoi ça sert ?

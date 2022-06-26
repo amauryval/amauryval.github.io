@@ -15,7 +15,7 @@ short_text: "Un tutos pour réaliser des tests unitaires..."
 
 La réalisation de tests est une nécessité absolue et fait partie totalement du processus de développement dans la mesure où il permet de valider la pertinence des résultats d'un processus, mais aussi de faciliter le développement et la maintenance d'une application.
 
-<figure style="width: 0px; visibility: hidden;" class="">
+<figure style="width: 0px; visibility: hidden;" id="img-header">
   <a href="/assets/images/memes/code.jpg"><img src="/assets/images/memes/code.jpg"></a>
 </figure>
 
